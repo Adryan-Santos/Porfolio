@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="style/stylecontact.css" type="text/css" media="all">
     </head>
     <body class="all">
-        <header class="header">
-            <a href="index.html" class="home"><img class="developer" src="image/me.jpg" alt="imagem do desenvolvedor"><h1 class = "name">Adryan Santos</h1></a>
-            <nav class="navHeader">
+        <header class="header"> <!--Cabeçalho-->
+            <a href="index.html" class="home"><img class="developer" src="assets/me.jpg" alt="imagem do desenvolvedor"><h1 class = "name">Adryan Santos</h1></a>
+            <nav class="navHeader"> <!--Menu Navegação-->
                 <ul class="listHeader">
                     <li class="navHeaderMenu"><a class = "linkHeaderMenu" href="about.html">Sobre</a></li>
                     <li class="navHeaderMenu"><a class = "linkHeaderMenu" href="projects.html">Projetos</a></li>
@@ -17,36 +17,36 @@
                 </ul>
             </nav>
         </header>
-        <main class="main">
-            <div class="mainLeft">
+        <main class="main"> <!--Conteúdo Principal-->
+            <div class="mainLeft"> <!--Conteúdo Principal Esquerda-->
                 <h1 class="presentation">Entre em contato!</h1>
-                <img class="imegemContact" src="image/contact.png" alt="ilustração sobre redes sociais">
+                <img class="imegemContact" src="assets/contact.png" alt="ilustração sobre redes sociais">
             </div>
-            <div class="mainRight">
-                <form action="#" method="#">
+            <div class="mainRight"> <!--Conteúdo Principal Direita-->
+                <form action="#" method="#"> <!--Formulários-->
                     <div class="formGroup">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <label class="label" for="email">Email:</label>
+                        <input class="input" type="email" name="email" required placeholder="Digite seu e-mail">
                     </div>
                     <div class="formGroup">
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" required>
+                        <label class="label" for="telefone">Telefone:</label>
+                        <input class="input" type="tel" name="telefone" required placeholder="(35) 99999-9999">
                     </div>
                     <div class="formGroup">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" required></textarea>
+                        <label class="label" for="mensagem">Mensagem:</label>
+                        <textarea  name="mensagem" required placeholder="Escreva uma mensagem para ser entregue diretamente a mim!"></textarea></textarea>
                     </div>
-                    <input type="submit" value="Enviar">
+                    <input class="submit" type="submit" value="Enviar">
                 </form>
             </div>
         </main>
-        <footer class="footer">
+        <footer class="footer"> <!--Rodapé-->
             <p class="copy">Todos direitos reservados &copy Adryan Santos</p>
-            <nav class="footerMenu">
-                <ul class ="listFooter">
-                    <li class="navFooterMenu"><a class="linkFooterMenu" href="https://www.linkedin.com/in/adryan-santos-9b06b2238/" target="_blank"><img class = "social" src="image/linkedin.png" alt="Logo do LinkedIn" width="40px"></a></li>
-                    <li class="navFooterMenu"><a class="linkFooterMenu" href="https://github.com/Adryan-Santos" target="_blank"><img class = "social" src="image/github.png" alt="Logo do GitHub" width="40px"></a></li>
-                    <li class="navFooterMenu"><a class="linkFooterMenu" href="https://www.instagram.com/adryan_r/" target="_blank"><img class = "social" src="image/instagram.png" alt="Logo do Instagram" width="40px"></a></li>
+            <nav class="footerMenu"> 
+                <ul class ="listFooter"> <!--Lista de Navegação entre links para minhas redes sociais-->
+                    <li class="navFooterMenu"><a class="linkFooterMenu" href="https://www.linkedin.com/in/adryan-santos-9b06b2238/" target="_blank"><img class = "social" src="assets/linkedin.png" alt="Logo do LinkedIn" width="40px"></a></li>
+                    <li class="navFooterMenu"><a class="linkFooterMenu" href="https://github.com/Adryan-Santos" target="_blank"><img class = "social" src="assets/github.png" alt="Logo do GitHub" width="40px"></a></li>
+                    <li class="navFooterMenu"><a class="linkFooterMenu" href="https://www.instagram.com/adryan_r/" target="_blank"><img class = "social" src="assets/instagram.png" alt="Logo do Instagram" width="40px"></a></li>
                 </ul>
             </nav>
         </footer>
