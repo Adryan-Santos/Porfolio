@@ -7,7 +7,7 @@ Porfolio Website realizado para um trabalho de Desenvolvimento Web I na institui
 - CSS3
 
 ## Como Visualizar
-Para visualizar o portfólio, basta abrir o arquivo `index.html` em um navegador web.
+Para visualizar o portfólio, basta abrir o arquivo `index.html` em um navegador web ou se preferir clicar no link do site ao final do readme.
 
 ## Estrutura de Diretórios
 
