@@ -11,24 +11,24 @@ Para visualizar o portfólio, basta abrir o arquivo `index.html` em um navegador
 
 ## Estrutura de Diretórios
 
-[Portfolio]
-├── index.html          # Página inicial do portfólio
-├── about.html          # Página sobre mim do portfólio
-├── contact.html        # Página de contato do portfólio
-├── projects.html       # Página de projetos do portfólio
-├── style/              # Pasta de estilos CSS
-│   ├── stylehome.css       # Estilos para a página inicial
-│   ├── styleabout.css      # Estilos para a página sobre mim
-│   ├── stylecontact.css    # Estilos para a página de contato
-│   └── styleprojects.css   # Estilos para a página de projetos
-├── assets/             # Pasta de recursos (imagens, ícones, etc.)
-│   ├── home.png
-│   ├── me.jpg
-│   ├── contact.png
-│   ├── github.jpg
-│   ├── instagram.png
-│   └── linkedin.png
-└── README.md           # Este arquivo
+- **[Portfolio]**
+  - `index.html`: Página inicial do portfólio
+  - `about.html`: Página sobre mim do portfólio
+  - `contact.html`: Página de contato do portfólio
+  - `projects.html`: Página de projetos do portfólio
+  - **style/**
+    - `stylehome.css`: Estilos para a página inicial
+    - `styleabout.css`: Estilos para a página sobre mim
+    - `stylecontact.css`: Estilos para a página de contato
+    - `styleprojects.css`: Estilos para a página de projetos
+  - **assets/**
+    - `home.png`
+    - `me.jpg`
+    - `contact.png`
+    - `github.jpg`
+    - `instagram.png`
+    - `linkedin.png`
+- `README.md`: Este arquivo
 
 
 
